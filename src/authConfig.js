@@ -7,7 +7,7 @@ const msalConfig = {
     auth: {
         clientId: '43c0f7bd-7a71-44e5-a988-948bb764bbb2', // This is the ONLY mandatory field that you need to supply.
         authority: 'https://login.microsoftonline.com/447342fa-2846-4356-9bec-f46ddaf4e822', // Replace the placeholder with your tenant name
-        redirectUri: 'https://icy-field-00181b003.4.azurestaticapps.net', // You must register this URI on Azure Portal/App Registration. Defaults to window.location.href e.g. http://localhost:3000/,
+        redirectUri: 'https://azsuechat.z33.web.core.windows.net/', // You must register this URI on Azure Portal/App Registration. Defaults to window.location.href e.g. http://localhost:3000/,
         postLogoutRedirectUri: '/', // Indicates the page to navigate after logout.
     },
     cache: {
